@@ -1,0 +1,65 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  height: 80px;
+	width: 100%;
+	border: 1px solid black;
+	margin: 0px;
+  padding: 0px;
+  
+}
+
+nav > navlogo {
+  height: 80px;
+	width: 100px;
+	border: 3px solid black;
+	margin: 0px;
+  padding: 0px;
+}
+
+.navbar > ul  {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  float: right;
+  
+}
+
+ul > li {
+  border: 2px solid blue;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+
+.mainHeader {
+  border: 4px solid green;
+  color: aliceblue;
+  width: 100%;
+  height: 500px;
+  background-image: url('./header.jpg');
+  text-align: center;
+  padding: 50px;
+  
+}
+
+.mainHeader > p {
+  font-size: 50px;
+  margin-top: 280px;
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  ul > li {
+    background: rgb(210, 245, 210);
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+  }
+}
